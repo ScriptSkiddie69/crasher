@@ -16,7 +16,6 @@ end
 end
 if s.WarningMessage then
 	warningMsg()
-	wait(5)
 end
 if s.PromoteMessage then
 	PromoteMsg()
@@ -29,7 +28,7 @@ end
 
 
 
-for i = 1,NumberSettings	 do
+for i = 1,s.NumberSettings do
 local position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
 local x = position.X
 local y = position.Y
